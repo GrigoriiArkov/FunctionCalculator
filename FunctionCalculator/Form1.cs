@@ -9,7 +9,7 @@ namespace FunctionCalculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
             FormRange dialog = new FormRange();
 
             //Я выбрал делать модальное окно. Т.к. оно блокирует главное окно пока
